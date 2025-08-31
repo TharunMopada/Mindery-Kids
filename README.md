@@ -1,73 +1,86 @@
-# Welcome to your Lovable project
+Mindful Kids - Meditation & Mindfulness Platform for Children
+![Mindful Kids](c:\Users\tharu\OneDrive\Documents\Mindful Kids\trial-spark-page-main\src\assets\hero-meditation-kids.jpg)
 
-## Project info
+A modern, responsive web application designed to help children ages 4-14 develop emotional intelligence, reduce anxiety, and build lifelong mindfulness skills through fun, age-appropriate activities and guided meditations.
 
-**URL**: https://lovable.dev/projects/006eb4ed-a6ea-4651-adfd-476afbfe6ed5
+🌟 Features
+Age-Appropriate Meditation Programs: Tailored content for different age groups (4-14)
+Guided Mindfulness Activities: Fun, interactive exercises to build focus and emotional awareness
+Sleep Improvement: Techniques to help children develop better sleep habits
+Anxiety Reduction: Practices designed to reduce stress and anxiety
+Focus Enhancement: Activities to improve concentration and attention span
+Parent Dashboard: Track your child's progress and engagement
+Live Sessions: Join guided meditation sessions in real-time
 
-## How can I edit this code?
+https://github.com/user-attachments/assets/092ab9df-d944-4ed3-a0b6-37e86c032658
 
-There are several ways of editing your application.
+🚀 Tech Stack
+This project is built with modern web technologies:
 
-**Use Lovable**
-
-Simply visit the [Lovable Project](https://lovable.dev/projects/006eb4ed-a6ea-4651-adfd-476afbfe6ed5) and start prompting.
-
-Changes made via Lovable will be committed automatically to this repo.
-
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+React: Frontend library for building user interfaces
+TypeScript: Type-safe JavaScript
+Vite: Next-generation frontend tooling
+Tailwind CSS: Utility-first CSS framework
+Shadcn UI: High-quality UI components
+Framer Motion: Animation library for React
+React Router: Routing for React applications
+React Query: Data fetching and state management
+📋 Prerequisites
+Node.js (v16 or higher)
+npm or yarn package manager
+🛠️ Installation & Setup
+Clone the repository
+git clone https://github.com/yourusername/mindful-kids.git
+cd mindful-kids
+Install dependencies
+npm install
+# or
+yarn install
+Start the development server
 npm run dev
-```
+# or
+yarn dev
+Open your browser and navigate to http://localhost:5173
+🏗️ Project Structure
+mindful-kids/
+├── public/              # Static assets
+├── src/
+│   ├── assets/          # Images and other assets
+│   ├── components/      # Reusable UI components
+│   │   ├── ui/          # Base UI components
+│   │   └── ...          # Feature-specific components
+│   ├── hooks/           # Custom React hooks
+│   ├── lib/             # Utility functions
+│   ├── pages/           # Page components
+│   ├── App.tsx          # Main application component
+│   └── main.tsx         # Application entry point
+├── .gitignore           # Git ignore file
+├── index.html           # HTML entry point
+├── package.json         # Project dependencies and scripts
+├── tailwind.config.ts   # Tailwind CSS configuration
+├── tsconfig.json        # TypeScript configuration
+└── vite.config.ts       # Vite configuration
+🚢 Deployment
+To build the application for production:
 
-**Edit a file directly in GitHub**
+npm run build
+# or
+yarn build
+The build artifacts will be stored in the dist/ directory, ready to be deployed to your hosting provider of choice.
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+🧪 Testing
+npm run test
+# or
+yarn test
+🤝 Contributing
+Contributions are welcome! Please feel free to submit a Pull Request.
 
-**Use GitHub Codespaces**
+Fork the repository
+Create your feature branch (git checkout -b feature/amazing-feature)
+Commit your changes (git commit -m 'Add some amazing feature')
+Push to the branch (git push origin feature/amazing-feature)
+Open a Pull Request
+📄 License
+This project is licensed under the MIT License - see the LICENSE file for details.
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/006eb4ed-a6ea-4651-adfd-476afbfe6ed5) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+Made with ❤️ for the well-being of children everywhere.
