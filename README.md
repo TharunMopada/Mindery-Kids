@@ -54,41 +54,36 @@ cd mindful-kids
 
 # Install dependencies
 npm install
-# or
-yarn install
 
 # Start the development server
 npm run dev
-# or
-yarn dev
+
 
 🏗️ Project Structure
+
 mindful-kids/
-├── public/              # Static assets
+├── public/ # Static assets
 ├── src/
-│   ├── assets/          # Images and other assets
-│   ├── components/      # Reusable UI components
-│   │   ├── ui/          # Base UI components
-│   │   └── ...          # Feature-specific components
-│   ├── hooks/           # Custom React hooks
-│   ├── lib/             # Utility functions
-│   ├── pages/           # Page components
-│   ├── App.tsx          # Main application component
-│   └── main.tsx         # Application entry point
-├── .gitignore           # Git ignore file
-├── index.html           # HTML entry point
-├── package.json         # Project dependencies and scripts
-├── tailwind.config.ts   # Tailwind CSS configuration
-├── tsconfig.json        # TypeScript configuration
-└── vite.config.ts       # Vite configuration
+│ ├── assets/ # Images and other assets
+│ ├── components/ # Reusable UI components
+│ │ ├── ui/ # Base UI components
+│ │ └── ... # Feature-specific components
+│ ├── hooks/ # Custom React hooks
+│ ├── lib/ # Utility functions
+│ ├── pages/ # Page components
+│ ├── App.tsx # Main application component
+│ └── main.tsx # Application entry point
+├── .gitignore # Git ignore file
+├── index.html # HTML entry point
+├── package.json # Project dependencies and scripts
+├── tailwind.config.ts # Tailwind CSS configuration
+├── tsconfig.json # TypeScript configuration
+└── vite.config.ts # Vite configuration
 
 🚢 Deployment
 
 To build the application for production:
 npm run build
-# or
-yarn build
-
 The build artifacts will be stored in the dist/ directory, ready to be deployed to your hosting provider of choice (e.g., GitHub Pages, Vercel, Netlify).
 
 🤝 Contributing
